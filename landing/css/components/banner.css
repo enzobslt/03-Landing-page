@@ -1,0 +1,47 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+@media (max-width:500px){
+.container{
+  color: white;
+  width: 300px;
+  margin: auto;
+  }
+}
+@media (max-width:900px){
+.container{
+  color: white;
+  width: 500px;
+  margin: auto;
+  }
+}
+.container{
+  color: white;
+  width: 900px;
+  margin: auto;
+}
+.container h1 {
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container p {
+  display: block;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container a {
+  text-decoration: none;
+}
+.btn-primary {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
